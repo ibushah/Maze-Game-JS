@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login page</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link href="./materializeCss/materialize.min.css" media="screen,projection" rel="stylesheet" type="text/css">
+  <link href="./css/loginpage.css" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+</head>
+
+<body background="./assests/myimAGE.png">
+  <nav class=""
+    style="background-color: black ;opacity: 0.6;color: ghostwhite;font-family:Didot;font-style: italic;font-weight: bold;">
+    <div class="nav-wrapper">
+      <a class="brand-logo" href="#" style="padding-left:8px ;font-size: 33px">Maze Game</a>
+      <ul class="right hide-on-med-and-down" id="nav-mobile">
+        <li>
+          <a href="./Pages/signuppage.html" style="font-size: 20px ;"
+            target="new front">SignUp</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br>
+  <br>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col s12 m3 l3"></div>
+    <div class="col s12 m6 l6">
+      <div class="card" style="opacity:0.8;">
+        <div class="card-content">
+          <div class="row">
+            <div class="input-field col s12 m12 l12">
+              <i class="material-icons prefix">account_circle</i> <input class="validate" id="email" type="email">
+              <label for="icon_prefix">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col m12 lg12 s12">
+              <i class="material-icons prefix">https</i> <input class="validate" id="password" type="password"> <label
+                for="password">Password</label>
+            </div>
+            <div class="row">
+              <p id="alreadyexisted" style="text-align:center"></p>
+            </div>
+          </div>
+          <div class="row" style="text-align: center">
+            <a class="waves-effect waves-light btn-small" href="#" id="loginlink" style="background-color: black"><i
+                class="material-icons left">cloud</i>Submit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3 l3"></div>
+  </div>
+  <script src="./materializeJs/materialize.min.js" type="text/javascript"></script>
+  <script src="Js/login.js"></script>
+</body>
+
+</html>

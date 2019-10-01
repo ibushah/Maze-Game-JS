@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LEVELS OF A MAZE GAME</title><!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"><!--Import materialize.css-->
+  <link href="../materializeCss/materialize.min.css"
+        media="screen,projection"
+        rel="stylesheet"
+        type="text/css"><!--Let browser know website is optimized for mobile-->
+  <meta content="width=device-width, initial-scale=1.0"
+        name="viewport">
+</head>
+<body background="../assests/myimAGE.png">
+  <nav class=""
+       style="opacity: 0.6;background-color: black;color: ghostwhite;font-family:Didot;font-style: italic;font-weight: bold;">
+    <div class="nav-wrapper">
+      <a class="brand-logo"
+           href="#"
+           style="padding-left:8px ;font-size: 33px">Maze Game</a>
+      <ul class="right hide-on-med-and-down"
+          id="nav-mobile">
+        <li>
+          <a onclick="logout()" href="../loginpage.html"
+              style="font-size: 20px;"
+              target="new front">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br>
+  <br>
+  <div class="row">
+    <div class="col s12 m6 l12">
+      <div class="card"
+           style="opacity:0.8">
+        <div class="card-content">
+          <div class="row">
+            <div class="col s12 m4 l4">
+              <div class="card"
+                   style="text-align: center">
+                <div class="card-content">
+                  <img src="../assests/easy.png"
+                       style="height:144px; width:144px;">
+                  <h5 style="color: black;font-family:Didot">Go Easy!</h5><a onclick="level('easy')" class="waves-effect waves-light btn-small"
+                       href="#"
+                       style="background-color: black"><i class="material-icons left">cloud</i>Play</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-content"
+                     style="text-align: center">
+                  <img src="../assests/medium.png"
+                       style="height:144px; width:144px;">
+                  <h5 style="color: black;font-family:Didot">Go Moderate!</h5><a  onclick="level('moderate')" class="waves-effect waves-light btn-small"
+                       href="#"
+                       style="background-color: black"><i class="material-icons left">cloud</i>Play</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-content"
+                     style="text-align: center">
+                  <img src="../assests/hard.png"
+                       style="height:144px; width:144px;">
+                  <h5 style="color: black;font-family:Didot">Go Pro!</h5><a  onclick="level('hard')" class="waves-effect waves-light btn-small"
+                       href="#"
+                       style="background-color: black"><i class="material-icons left">cloud</i>Play</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../Js/levelspage.js"></script>
+    <script src="../materializeJs/materialize.min.js"
+         type="text/javascript"></script>
+         
+  </div>
+</body>
+</html>
